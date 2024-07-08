@@ -1,0 +1,27 @@
+{
+  "configurations" : [
+    {
+      "id" : "2FE96992-0CE5-456F-97C9-9A2B06BBF1B3",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "NewsDetailsTest"
+      ],
+      "target" : {
+        "containerPath" : "container:ReachNews.xcodeproj",
+        "identifier" : "18CF95B128E4D7C20079B714",
+        "name" : "ReachNewsTests"
+      }
+    }
+  ],
+  "version" : 1
+}

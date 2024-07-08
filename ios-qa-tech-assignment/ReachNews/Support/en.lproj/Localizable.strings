@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  ReachNews
+
+  Created by Felipe Scarpitta on 28/09/2022.
+  
+*/
+
+"defaultNavTitle" = "Default Title";
+
+"loadingView_text" = "Loading...";
+"refreshControl_title" = "Pull to refresh";
+
+"alert_title" = "Oops...";
+"alert_message" = "Something went wrong...";
+"alert_okButton" = "Ok";
+"alert_retryButton" = "Retry";
+
+"newsList_title" = "Top Stories";
+"newsDetails_title" = "News Details";
+
+"accessibility_imageViewPrefix" = "Image.";

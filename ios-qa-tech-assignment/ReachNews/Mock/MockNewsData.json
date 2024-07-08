@@ -1,0 +1,2692 @@
+{
+    "name": "Science",
+    "type": "articles",
+    "articles": [
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "This is mock data."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "This is mock data.",
+                        "caption": "This is mock data.",
+                        "credit": "elevenplusexams",
+                        "url": "https://mocks.elevenplusexams.co.uk/assets/uncompiled/online_mocks1.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "This is mock data."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "This is mock data",
+                        "caption": "This is mock data",
+                        "credit": "ytimg",
+                        "url": "https://i.ytimg.com/vi/Jpy-tOoqPb8/maxresdefault.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "This is mock data"
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Mock Title",
+            "id": "00000001",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "Mock alt",
+                    "caption": "Mock caption",
+                    "credit": "mock",
+                    "url": "https://img.freepik.com/premium-vector/mock-data-icon-vector-image-can-be-used-software-testing_120816-344530.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "Scientists say oxygen has been produced on Mars for the first time, bringing humans closer to the possibility of life on another planet."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Using an instrument &#34;the size of a lunchbox&#34;, a team supported by NASA says it has been transforming the Red Planet&#39;s carbon dioxide to produce more oxygen for the past 18 months, and is now paving the way to temporarily sustain human life."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Since landing on Mars in February 2021, the MIT-led Mars Oxygen In-Situ Resource Utilization Experiment - or &#39;Moxie&#39;, has turned CO2 into oxygen at the rate of a small tree on seven occasions, the team said."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The oxygen was created both during day and night and in different seasons."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Technicians at NASA's Jet Propulsion Laboratory lower the Mars Oxygen In-Situ Resource Utilization Experiment (MOXIE) instrument into the belly of the Perseverance rover in an undated photograph in Pasadena, California, U.S.",
+                        "caption": "Technicians at NASA's Jet Propulsion Laboratory lower the Mars Oxygen In-Situ Resource Utilization Experiment (MOXIE) instrument into the belly of the Perseverance rover in an undated photograph in Pasadena, California, U.S.",
+                        "credit": "NASA/JPL-Caltech/Handout via REUTERS",
+                        "url": "https://i2-prod.mirror.co.uk/news/world-news/article27893016.ece/ALTERNATES/s510b/0_JS233246566.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "It means that astronauts stepping onto Martian territory will be able to breathe unaided for their arrival, as well as providing ample oxygen to fuel a rocket on its return."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "While only one small step, scientists have hailed it as a giant and &#34;promising&#34; step for mankind."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Michael Hecht, who has been working on the project, said this would help future investigations into whether there is the possibility for supporting life on other planets."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;We have learned a tremendous amount that will inform future systems at a larger scale,&#x201D; he said."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Oxygen has been artificially produced on Planet Mars for the first time, scientists say",
+                        "caption": "Oxygen has been artificially produced on Planet Mars for the first time, scientists say",
+                        "credit": "Getty Images/Science Photo Library RF",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article27701950.ece/ALTERNATES/s510b/0_Mars-artwork.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;This is the first demonstration of actually using resources on the surface of another planetary body, and transforming them chemically into something that would be useful for a human mission,&#x201D; says MOXIE deputy principal investigator Jeffrey Hoffman."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;It&#39;s historic in that sense.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;The atmosphere of Mars is far more variable than Earth,&#x201D; Jeffrey added."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;The density of the air can vary by a factor of two through the year, and the temperature can vary by 100 degrees. One objective is to show we can run in all seasons.&#x201D;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The one thing scientists haven&#39;t been able to do so far, however, is produce oxygen during Martian dawns and dusks, due to the planet&#39;s raid temperature changes during these times."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;We do have an ace up our sleeve that will let us do that,&#34; Jeffrey added. &#34;And once we test that in the lab, we can reach that last milestone to show we can really run any time.&#x201D;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "With MOXIE now churning out oxygen, the scientists want to push its capacity and plan to produce more during the planet&#39;s Spring, when carbon dioxide levels are highest."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Planet Mars",
+                        "caption": "Could there be life on Mars soon?",
+                        "credit": "Getty Images/iStockphoto",
+                        "url": "https://i2-prod.dailystar.co.uk/incoming/article26986844.ece/ALTERNATES/s510b/1_astronaut-on-planet-Mars-watching-the-rising-Sun-3d-space-illustration.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;The next run coming up will be during the highest density of the year, and we just want to make as much oxygen as we can,&#x201D; Prof Hecht said."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;So we&#x2019;ll set everything as high as we dare, and let it run as long as we can."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;To support a human mission to Mars, we have to bring a lot of stuff from Earth, like computers, spacesuits, and habitats."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;But dumb old oxygen? If you can make it there, go for it &#x2014; you&#x2019;re way ahead of the game.&#x201D;"
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Life on Mars hope as machine produces oxygen on red planet for the first time",
+            "id": "27892446",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "Landscape picture from the surface of Mars",
+                    "caption": "Life on the Red Planet could be very lonely and boring",
+                    "credit": "Getty",
+                    "url": "https://i2-prod.dailystar.co.uk/incoming/article27504225.ece/ALTERNATES/r500/1_SDC_MDG_-CHP_40116JPG.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "A liquid hydrogen leak has interrupted NASA&#39;s preparations for its new Moon rocket launch."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Controllers halted the fuelling operation for Artemis 1 on Monday morning, but NASA said its engineers were rectifying the issue."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "There was no word on whether it would cause delays to take-off from the Kennedy Space Center in Cape Canaveral, Florida."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "NASA said: &#34;Teams continue to troubleshoot a liquid hydrogen leak at the mating interface with the core stage."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;After manually chilling down the liquid hydrogen as part of troubleshooting efforts, they are in fast fill operations.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Similar leaks hindered NASA&#39;s countdown tests in April and June."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "The Artemis I rocket sits on launch pad 39-B at Kennedy Space Center on August 28",
+                        "caption": "The Artemis I rocket sits on launch pad 39-B at Kennedy Space Center on August 28",
+                        "credit": "Getty Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article27856816.ece/ALTERNATES/s510b/0_NASA-Prepares-To-Launch-Artemis-Rocket-For-Moon-Mission.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "altText": "NASA's Space Launch System (SLS) rocket with the Orion spacecraft is seen atop the mobile launcher",
+                        "caption": "NASA's Space Launch System (SLS) rocket with the Orion spacecraft is seen atop the mobile launcher",
+                        "credit": "NASA via Getty Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article27856818.ece/ALTERNATES/s510b/0_Artemis-I-Preflight.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "It eventually went ahead with the countdown in June despite the fuel line leak, alongside other issues such as stuck valves."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Managers reportedly said they would not know for sure whether the latest leaks had been resolved until attempting to load the rocket&#39;s tanks with nearly one million gallons of super-cold fuel later on Monday."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The uncrewed flight marks the next chapter in putting humans back on the Moon and is the first in NASA&#39;s Artemis programme."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "There will be astronauts on board for subsequent missions, with the first crewed flight into space scheduled for 2024."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "NASA expects the first Artemis astronauts to land on the Moon in 2025."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "NASA's Space Launch System (SLS) rocket with the Orion spacecraft aboard is seen illuminated by spotlights on August 29",
+                        "caption": "NASA's SLS rocket with the Orion spacecraft aboard is seen illuminated by spotlights on August 29",
+                        "credit": "NASA via Getty Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article27856819.ece/ALTERNATES/s510b/0_Artemis-I-Prelaunch.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "The Artemis 1 mission will see the first launch of the new 322ft (98m) tall Space Launch System (SLS) rocket, which the agency says is the world&#39;s most powerful rocket to date."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "It will take the Orion capsule, powered by the Airbus-built European Service Module (ESM), into the Moon&#39;s orbit."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Airbus engineer Sian Cleaver is industrial manager for the ESM, and as a child she dreamt about being involved in human spaceflight before getting a master&#39;s degree in physics and astronomy from Durham University."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "She said: &#34;I&#39;m ridiculously excited, and I think everybody on the team is."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;There&#39;s years and years of a labour of love into this project."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "NASA's Artemis I flight test is the first integrated test of the agency's deep space exploration systems",
+                        "caption": "NASA's Artemis I flight test is the first integrated test of the agency's deep space exploration systems",
+                        "credit": "Getty Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article27856336.ece/ALTERNATES/s510b/0_Artemis-I-Prelaunch.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;This is the first time that we will have seen one of our European service modules flying in space and going to the Moon."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;I think a lot of us couldn&#39;t quite believe it - we&#39;ve now got the go for launch."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;Now, I think it&#39;s really sinking in that this is reality, this is happening, and it&#39;s going to really start this whole new chapter of space exploration, and going to the Moon."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;We&#39;re on the brink of something really exciting now.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Ms Cleaver said the last time humans went to the Moon, some 50 years ago, it was about proving that it could be done, whereas the new mission is about proving people can go there for longer and more sustainably."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "The mission will take the Orion capsule into the Moon's orbit",
+                        "caption": "The mission will take the Orion capsule into the Moon's orbit",
+                        "credit": "AFP via Getty Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article27855215.ece/ALTERNATES/s510b/0_FILES-MYANMAR-RUSSIA-CHINA-POLITICS-SPACE.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "It will also assess whether some infrastructure can be built on and around the Moon, allowing humans to survive on another planetary body."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Now in her 30s, Ms Cleaver first visited the Kennedy Space Centre in Florida, where the launch has been given a window from 1.33pm (BST) on Monday, when she was just eight years old."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Her role in building the ESM involved making sure that all of the equipment and the subsystems came together at exactly the right time."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Speaking of attending the launch, she said: &#34;I am so excited to be there."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "NASA T-38s, a fixture of astronaut training, fly in formation above the SLS rocket",
+                        "caption": "NASA T-38s, a fixture of astronaut training, fly in formation above the SLS rocket",
+                        "credit": "Josh Valcarcel/UPI/REX/Shutterstock",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article27848060.ece/ALTERNATES/s510b/0_NASA-T-38-Trainers-Fly-Past-the-SLS-Rocket-with-the-Orion-Spacecraft-Aboard-at-Launch-Pad-39B-Cape.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;It is going to be, for me personally, a really special moment to be back there after so long."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;And now to actually work in the space industry, I still haven&#39;t quite got my head around it really, that I&#39;ve achieved something that I wanted to do since I was 15 or so.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "She added: &#34;It&#39;s pretty amazing that, even at this stage of my career - 10 years into Airbus - that I&#39;m working on essentially my dream mission.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The mission&#39;s duration is 42 days, 3 hours, 20 minutes, and in total the capsule will travel 1.3million miles, before splashing down on October 10."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Controllers halted the fuelling operation for Artemis 1 on Monday morning",
+                        "caption": "Controllers halted the fuelling operation for Artemis 1 on Monday morning",
+                        "credit": "Getty Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article27856817.ece/ALTERNATES/s510b/0_Artemis-I-Prelaunch.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "The UK is part of the Artemis programme, making contributions to the Lunar Gateway - a space station currently in development with the European Space Agency - working alongside the US, Europe, Canada and Japan."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The Artemis mission will be tracked in the UK from Goonhilly Earth Station in Cornwall."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Libby Jackson, exploration science manager at the UK Space Agency, said: &#34;The first launch of the Artemis 1 SLS rocket is an important step for the global space community as we prepare to return humans to the Moon."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;The Artemis programme marks the next chapter of human space exploration and we look forward to continued involvement as it comes to life.&#34;"
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Fuel leak interrupts NASA's preparations for new Moon rocket launch",
+            "id": "27856835",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "Controllers halted the fuelling operation for Artemis 1 on Monday morning",
+                    "caption": "Controllers halted the fuelling operation for Artemis 1 on Monday morning",
+                    "credit": "Getty Images",
+                    "url": "https://i2-prod.mirror.co.uk/incoming/article27856817.ece/ALTERNATES/r500/0_Artemis-I-Prelaunch.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "We&#x2019;re blissfully unaware of it, but debris rains down on us from space all the time. "
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "These microscopic particles from asteroids and comets pitter patter onto Earth, adding up to around 40,000 tonnes of dust here every year."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "And despite there being plenty of &#39;space junk&#39; - including around 3,000 dead satellites orbiting our planet - the chances of someone being killed by a falling fragment is still tiny. Or at least, it was."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "These days we&#x2019;re launching more probes, rockets and satellites than ever before, so isn&#39;t it about time the risk was re-assessed?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The journal  Nature Astronomy  has just published a study looking into the uncontrolled arrival of artificial space debris, such as spent rocket stages, associated with rocket launches and satellites."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Using clever mathematical modelling of the orbits and descending paths likely to be taken by rocket parts, the authors were able to estimate where debris was likely to land."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Want the latest updates on close encounters, mysterious sightings and fascinating insights from scientists? Sign up to the Daily Star&#39;s Spaced Out newsletter HERE."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Aerial view of Earth",
+                        "caption": "Technology exists to possibly control the re-entry of debris, but it comes at a cost.",
+                        "credit": "Getty Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article27602246.ece/ALTERNATES/s510b/0_View-of-Planet-Earth.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "&#39;A small but significant risk&#39;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "They discovered there is indeed a small &#x2013; but significant &#x2013; risk of parts re-entering in the coming decade."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "And it&#x2019;s more likely to hit southern latitudes rather than northern."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The study, which took into account population density, says spent rocket bodies are three times more likely to land around Lagos in Nigeria, Jakarta in Indonesia or Dhaka in Bangladesh than those of Moscow, Beijing or New York."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "A &#x2018;casualty expectation&#x2019; &#x2013; that is, the risk to human life &#x2013; over the next decade from uncontrolled rocket re-entries was put at 10 per cent."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "This was worked out on the basis of each re-entry spreading lethal debris over an area of ten square metres."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "A meteor shower in China skies taken last year ",
+                        "caption": "A meteor shower in China skies taken last year ",
+                        "credit": "Getty Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article27602244.ece/ALTERNATES/s510b/0_The-moon-sets-and-meteors-are-beside-a-lonely-tree-on-the-grassland.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "What can actually be done about it?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Thankfully, the technology exists to possibly control the re-entry of debris, but it comes at a cost."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "For starters a spacecraft can be pre-emptively &#x2018;passivated&#x2019;, which mean that any unused energy (such as batteries or fuel) is expended rather than being stored once the spacecraft has expired."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Interestingly, a satellite can be programmed to move into a low Earth orbit, thus ensuring it burns up rather than crashing to Earth."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Elsewhere, Elon Musk&#39;s spacecraft engineering firm SpaceX are developing re-usable rockets, which create a lot less debris &#x2013; usually giving off some paint and metal shavings."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The risk to human life is taken seriously by many, with the European Space Agency planning a mission to attempt the capture and removal of space debris with a four-armed robot. The United Nations&#39; Office of Outer Space Affairs released a set of Space Debris Mitigation Guidelines in 2010, which was reinforced in 2018."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "However, the authors of the study pointed out these were merely guidelines, and not international law."
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Chances of falling space junk killing somebody are a frightening 'ten per cent'",
+            "id": "27601621",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "A satellite breaking up over the Earth",
+                    "caption": "Space junk falling to Earth is an increasing hazard",
+                    "credit": "Getty Images/iStockphoto",
+                    "url": "https://i2-prod.mirror.co.uk/incoming/article27602245.ece/ALTERNATES/r500/0_Satellite.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "&#34;Could a few of our most brilliant scientists put their heads together and solve the most pressing problems facing humans and the planet today?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;Rising global temperatures resulting in the heatwave we are currently experiencing, famine, droughts and melting ice caps are just a few of the things they need to get on with."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;The world&#x2019;s eco systems are collapsing and, unless action is taken very soon, catastrophic consequences will be inevitable.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": " - Brian Davies, Bury St Edmunds, Suffolk "
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": null,
+                        "caption": null,
+                        "credit": null,
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article27518452.ece/ALTERNATES/s510b/0_imagemaker-28.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": " What do you think? With 40C+ temperatures blasting the UK, should this be a wake-up call for society at large? Or, do you think we are already doing enough? "
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "  Let us know in the comments below.  "
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "'Could a few of our most brilliant scientists solve the climate crisis?'",
+            "id": "27518323",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "AVILA, SPAIN - JULY 18: A firefighter from the Brigadas de Refuerzo en Incendios Forestales (BRIF) protects a playground as a forest fire approaches El Hoyo de Pinares on July 18, 2022 in Avila, Spain. Wildfires have broken out across Spain and southern Europe amid a severe heatwave. (Photo by Pablo Blazquez Dominguez/Getty Images)",
+                    "caption": "Brian from Suffolk thinks that scientists should get a shift on with solving the many issues being caused by climate change. Do you think this is a fair comment?",
+                    "credit": "Getty Images",
+                    "url": "https://i2-prod.mirror.co.uk/incoming/article27516064.ece/ALTERNATES/r500/1_Wildfire-In-Avila-Province-As-Heatwave-Grips-Spain.jpg"
+                },
+                "type": "image"
+            },
+            "type": "opinion"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "An &#x201C;enormous&#x201D; prehistoric shark has been crowned the &#x201C;predator of predators&#x201D; for being at the peak of the marine food chain, in a new study."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Princeton University researchers carried out a study where they ranked predators through history and it was the Megalodon shark that came out on top."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "What was most surprising about Megalodons was their sheer size."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "They are a type of mackerel shark that is now extinct but were around from around 23 to 3.6 million years ago."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "But at 65 feet long they were more than a match for other predators around at the time - and at least three times larger than the largest modern great white sharks."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "A huge Megalodon shark swims",
+                        "caption": "Princeton University researchers carried out a study",
+                        "credit": "Getty Images/iStockphoto",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article27342966.ece/ALTERNATES/s510b/0_Megalodon-Attack.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;We&#39;re used to thinking of the largest species - blue whales, whale sharks, even elephants, and diplodocuses, as filter feeders or herbivores, not predators,&#34; study author Emma Kast said."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;But Megalodon and the other megatooth sharks were genuinely enormous carnivores that ate other predators, and Meg went extinct only a few million years ago.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The fact they were so big and that they would eat other predators has put the Megalodon at the &#x201C;highest trophic level&#x201D; i.e. the highest level of the food chain."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "This is reinforced by the fact that Megalodons had no known predator which meant they reigned supreme."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;Ocean food webs do tend to be longer than the grass-deer-wolf food chain of land animals because you start with such small organisms,&#34; said Dr Kast."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "A huge Megalodon shark swims",
+                        "caption": "The creatures were 65 feet long",
+                        "credit": "Karen Carr",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article27342963.ece/ALTERNATES/s510b/0_SDC_MDG_-CHP_37908JPEG.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;To reach the trophic levels we&#x2019;re measuring in these megatooth sharks, we don&#x2019;t just need to add one trophic level, one apex predator on top of the marine food chain, we need to add several onto the top of the modern marine food web.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "In order to study the prehistoric marine food web, the researchers used a special technique to measure the nitrogen isotopes in the sharks&#39; teeth."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The more nitrogen-15 that is detected in a species, the higher it lies on the food chain."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Until now, scientists have not been able to measure the tiny amounts of nitrogen preserved in the enamel layer of these extinct shark teeth."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Zixuan (Crystal) Rao, a graduate student and a co-author of the paper said: &#34;We have a series of shark teeth from different time periods, and we were able to trace their trophic level versus their size&#34;."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "One way that certain animals reach a higher trophic level is by cannibalism and several lines of evidence point to that in both megatooth sharks and other prehistoric marine predators."
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Scientists hail �姫orld�䏭 ultimate predator�� as 50ft shark that devoured rivals",
+            "id": "27343282",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "A Megalodon from prehistoric times",
+                    "caption": null,
+                    "credit": "Getty Images/iStockphoto",
+                    "url": "https://i2-prod.mirror.co.uk/incoming/article27342965.ece/ALTERNATES/r500/0_Megalodon-scene-3D-illustration.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "The Moon is set to pass through the shadow of the Earth today (May 15) to create an overnight total lunar eclipse."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "It is set to be the first Blood Moon of 2022 - which is when the Moon turns red thanks to the light being filtered through the Earth&#39;s atmosphere."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Eclipse scientist Fred Espenak has given the moon of the night of May 15 the title of Super Moon."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "This is the name usually given to the point when the Moon is the closest to Earth that it will be that month. This means the moon of May 15 is actually going to be a Super Blood Moon eclipse."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "This triple whammy of incredible lunar events should make for some spectacular viewing and will be well worth trying to get a glimpse of it if you can."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Read on for the exact times it will be visible in the UK and what to do if the weather is bad."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "When is the total lunar eclipse?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Diagram shows all the phases of the so-called Super Blood Wolf Moon total lunar eclipse on Sunday, January 20, 2019 in Panama City",
+                        "caption": "Diagram shows all the phases of the Super Blood Wolf Moon total lunar eclipse which happened on January 20, 2019",
+                        "credit": "AFP via Getty Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25497692.ece/ALTERNATES/s510b/0_TOPSHOT-PANAMA-ASTRONOMY-MOON.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "According to  Time and Date, the partial stage of the eclipse will begin at 3:27am on May 16, with the full eclipse happening just over an hour later at 4:29am."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The red hue of the Blood Moon is expected to be visible from around 4:11am."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The point of maximum eclipse is then due to take place around 40 minutes later at 5:11am."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The rare event is expected to end at 5:53am, so it&#x2019;s likely going to be a long night of being up and awake for those devoted to watching the events through."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "If you&#x2019;re in London though, we have some bad news, because the point of the maximum eclipse is going to take place at a time when the Moon has dipped below the horizon."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Don&#x2019;t fret though, because much of the run-up and the full eclipse stage should be visible - weather permitting - and there are other options available to you as well."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "How can I watch the eclipse if it is cloudy?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Get ready for some breathtaking sights ",
+                        "caption": "Get ready for some breathtaking sights ",
+                        "credit": "Paul Jacobs/pictureexclusive.com",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article18326678.ece/ALTERNATES/s510b/0_moon_4JPG.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "If it is cloudy and the Moon isn&#x2019;t visible, then there are still some options available to you, although these will of course be dependent on good weather at the various observation sites."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "One of the best ways to catch a glimpse is through the  NASA Science Live YouTube broadcast, which will kick off at 1:32am on May 16."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Describing the broadcast, NASA says: &#x201C;Join NASA experts to learn about this incredible natural phenomenon, look through telescope views across the world, and hear about plans to return humans to the lunar surface with the Artemis program.&#x201D;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Another option to watch the eclipse is with  Slooh&#x2019;s webcast, which says: &#x201C;This graceful transition will take several hours as we watch our familiar Full Moon take on a ghostly character. Some call these total lunar eclipses &#39;Blood Moons&#39;, but they are usually far more subtle - shades of pink, peach, and, if we&#39;re lucky, reds enveloping Earth&#39;s nearest celestial neighbour."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "The Blood Moon is expected to have a reddish hue ",
+                        "caption": "The Blood Moon is expected to have a reddish hue ",
+                        "credit": "Getty Images",
+                        "url": "https://i2-prod.dailystar.co.uk/incoming/article25977067.ece/ALTERNATES/s510b/0_Super-Blood-Moon-And-Total-Lunar-Eclipse-Seen-In-Auckland.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;The Online Telescope&#39;s experts will be on hand to explain this spectacular sight from the start of the penumbral phase, through the partial, and then the beautiful total phase that lasts for 1 hour and 19 minutes.&#x201D;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "If you want a third option, then head over to the video stream from Date and Time. It says: &#x201C;Our live coverage is your perfect companion to this eclipse, whether it&#39;s visible from your location or not. Follow the eclipse from start to finish with us right here!&#x201D;"
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Exact time to see spectacular Super Blood Moon eclipse in the UK tonight",
+            "id": "26953278",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "The lunar event is a combination of a full moon and a lunar eclipse",
+                    "caption": "The lunar event is a combination of a full moon and a partial penumbral lunar eclipse",
+                    "credit": "Paul Gillis",
+                    "url": "https://i2-prod.mirror.co.uk/incoming/article22288675.ece/ALTERNATES/r500/2_HALF_BLOOD_MOONpaulgillisphoto-6.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "The appropriately named Event Horizon telescope has photographed the supermassive black hole at the heart of the Milky Way galaxy."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "This ominous cosmic beast, known as Sagittarius A, was incredibly difficult to photograph because no light or matter can escape its gravitational vortex in space."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Affectionally called a &#x201C;gentle giant&#x201D;, its picture was taken by a network of eight radio telescopes spanning the world in Antarctica, Spain, Chile and beyond."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The same global setup was used to snap the first ever photo of a black hole in 2019 &#x2013; Messier 87, though the new one is in our very own galaxy."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Prof Sera Markoff, an astrophysicist at the University of Amsterdam and co-chair of the EHT Science Council, said: &#x201C;The Milky Way&#x2019;s black hole was our main target, it&#x2019;s our closest supermassive black hole and it&#x2019;s the reason we set out to do this thing in the first place."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;It&#x2019;s been a 100-year search for these things and so, scientifically, it&#x2019;s a huge deal.&#x201D;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The question remains, what is beyond the edge of an event horizon? Science has a few theories, and no, it isn&#39;t aliens."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "What is a supermassive black hole?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "The first image of Sagittarius A*, the supermassive black hole at the centre of our galaxy",
+                        "caption": "The first image of Sagittarius A*, the supermassive black hole at the centre of our galaxy",
+                        "credit": "VIA REUTERS",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article26947518.ece/ALTERNATES/s510b/0_Scientists-unveil-an-image-of-a-huge-black-hole-at-Milky-Ways-center.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "Planets are big, stars are huge, black holes are enormous and supermassive black holes are terrifying in size and scope."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "A supermassive black hole contains between one hundred thousand and ten billion times more mass than our Sun."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "As of 2022, there are just over 150 confirmed supermassive black holes lurking in the depths of space."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "They are usually parked in galactic cores, with good old Sagittarius A being found in our own galaxy."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "It is currently unknown how these intergalactic goliaths are formed, but for all intents and purposes, they&#x2019;ve always been here."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Regular black holes are formed when some massive stars implode and collapse into themselves."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "It has been hypothesised that supermassive black holes are the result of the collapse of gasses during the formation of a galaxy."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Most astronomers agree that the accretion of material toward the supermassive black holes drive both active galactic nuclei and galactic jets."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "What is beyond an event horizon?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "The supermassive black hole is found at the galactic core of the Milky Way",
+                        "caption": "The supermassive black hole is found at the galactic core of the Milky Way",
+                        "credit": "NASA",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article26947505.ece/ALTERNATES/s510b/1_Milky-Ways-black-hole-revealed-in-first-ever-photo-after-groundbreaking-mission.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "The event horizon of a black hole is the lip beyond which light and mass pours into."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "As stated on discoverymagazine.com: &#x201C;Beyond the event horizon lies a truly minuscule point called a singularity, where gravity is so intense that it infinitely curves space-time itself."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;This is where the laws of physics, as we know them, break down, meaning all theories about what lies beyond are just speculation.&#x201D;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "An event horizon is beyond the infinite of our current understanding but it sure is fun thinking about - a real brainer."
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Theories of what's inside a supermassive black hole as incredible pics emerge",
+            "id": "26957014",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "The first image of the supermassive black hole at the heart of our galaxy has been taken",
+                    "caption": "The first image of the supermassive black hole at the heart of our galaxy has been taken",
+                    "credit": "European Southern Observatory/AF",
+                    "url": "https://i2-prod.dailystar.co.uk/incoming/article26948500.ece/ALTERNATES/r500/1_SCIENCE-ASTRONOMY-BLACK-HOLE-MILKY-WAY.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "Robots have been given fingertips that can &#x201C;feel&#x201D; like human skin."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Machines can beat the world&#x2019;s best chess player but until now could not handle a chess piece as well as an infant."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "This lack of robot dexterity is partly because artificial grippers lack the fine tactile sense of the human fingertip to guide our hands when we handle objects."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Scientists at the Bristol Robotics Laboratory have now developed a highly sensitive 3D-printed fingertip mesh of pin-size sensors similar to the papillae in human skin."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Prof Nathan Lepora, of Bristol University, said: &#x201C;Our work helps uncover how the complex internal structure of human skin creates our human sense of touch."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;This is an exciting development in the field of soft robotics being able to 3D-print tactile skin could create robots that are more dexterous or significantly improve the performance of prosthetic hands by giving them an in-built sense of touch.&#x201D;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Papillae are found between the outer epidermal and inner dermal layers of human tactile skin."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The robot papillae are made on advanced 3D-printers that can mix together soft and hard materials to create complicated structures like those found in biology."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Their findings, published in the Journal of the Royal Society Interface, include the first neural recordings of the human sense of touch."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Despite the breakthrough, the robot skin was still not as sensitive to fine detail."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Prof Lepora added: &#x201C;We found our 3D-printed tactile fingertip can produce artificial nerve signals that look like recordings from real, tactile neurons."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;Human tactile nerves transmit signals from various nerve endings called mechanoreceptors, which can signal the pressure and shape of a contact.&#x201D;"
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Robots given 3D-printed fingertips that can 'feel' like human skin in new study",
+            "id": "26641879",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "A robotic hand with 3D printed fingertip",
+                    "caption": null,
+                    "credit": "Bristol University / SWNS",
+                    "url": "https://i2-prod.mirror.co.uk/incoming/article26641986.ece/ALTERNATES/r500/0_SWNS_3D_FINGER_02.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "A four-tonne rocket that was propelled off the face of the Earth a full seven years ago is likely to be on course for a smash-up with the moon."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "In a fight it is unlikely to win, the rocket from Elon Musk&#39;s SpaceX is thought to be on for a direct collision with the tide-changing rock, experts have warned."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The Falcon 9 booster, which took off from Mother Earth&#39;s Florida in February 2015, was originally on a space weather satellite mission but has since been in orbit around the Blue Planet since it ran out of fuel, the Independent reports."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The mission was conducted to launch the National Oceanic and Atmospheric Administration&#x2019;s Deep Space Climate Observatory, the job of which is to monitor solar storms."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "A SpaceX Falcon 9 rocket sits on its launchpad - it is the same as the kind of rocket that is due to smash into the moon in the coming weeks",
+                        "caption": "A SpaceX Falcon 9 rocket sits on its launchpad - it is the same as the kind of rocket that is due to smash into the moon in the coming weeks",
+                        "credit": "NASA/AFP via Getty Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25654022.ece/ALTERNATES/s510b/1_US-SPACE-NASA-SPACEX-IXPE.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "The two aims for the rocket after the mission was completed were to either get it to land back on Earth again or get it out of Earth&#39;s orbit entirely, however, it did not have enough fuel to manage either plan and as such has been stuck in orbit ever since."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Its orbit has taken the rocket on a rather chaotic route through space because it is tumbling rather than flying in a tidy line, making predicting its path difficult."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "When will the rocket hit the moon?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "The rocket on course for the moon is one of Elon Musk's",
+                        "caption": "The rocket on course for the moon is one of Elon Musk's",
+                        "credit": "Getty",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article24608341.ece/ALTERNATES/s510b/1_SpaceX-CEO-Elon-Musk-Unveils-Companys-New-Manned-Spacecraft-The-Dragon-V2.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "The collision could take place as soon as next month and is due to hit our lunar companion at a velocity of 2.58km/s."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The writer of software called Project Pluto that tracks objects near to Earth, Bill Gray, believes the collision is likely on March 4, although he isn&#39;t completely sure yet."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "He wrote: &#34;I have a fairly complete mathematical model of what the earth, moon, sun, and planets are doing and how their gravity is affecting the object."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;I have a rough idea of how much sunlight is pushing outward on the object, gently pushing it away from the sun. This usually enables me to make predictions with a good bit of confidence."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;However, the actual effects of that sunlight are hard to predict perfectly. It doesn&#39;t just push outward; some of it bounces &#39;sideways&#39;."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;The object is a long cylinder, spinning slowly; you can see the light from it vary as it tumbles, and you can plot a light curve for it indicating that it rotates about once every 180.7 seconds. (Or possibly every 90.4 seconds. There&#39;s often some ambiguity in measuring rotation periods.)&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "He also added: &#34;These unpredictable effects are very small. But they will accumulate between now and 2022 March 4, and we&#39;d really like to determine the impact location as precisely as possible, so that the the Lunar Reconnaissance Orbiter (LRO) and Chandrayaan-2 folks can find the crater (and, if we&#39;re lucky, maybe image the impact)."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;At this level of precision, the tiny departures from idealised physics, with its frictionless spherical cows, matter."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;At a guess, the above prediction may be wrong by a few kilometres and second from the predicted time."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;We&#39;ll need (and I am confident will get) more observations in early February to refine the prediction; that will bring the uncertainty down greatly.&#34;"
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Out-of-control SpaceX rocket on course to crash into the moon, astronomers warn",
+            "id": "26058642",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "The Moon is set to take a pounding from a stray rocket",
+                    "caption": "The Moon is set to take a pounding from a stray rocket",
+                    "credit": "REUTERS",
+                    "url": "https://i2-prod.mirror.co.uk/incoming/article25974383.ece/ALTERNATES/r500/0_Full-moon-rises-as-viewed-from-Glastonbury-Tor-in-Glastonbury.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "Historic objects are being used to unlock advancements in cancer research - with a malignant tumour in a 245-million-year-old dinosaur bone being used by scientists to help us understand the disease today."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Fossil records discovered by experts in the shinbone of a Centrosaurus reveal the earliest-ever sign of cancer on earth."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The bone cancer called osteosarcoma, found by a team led by dinosaur expert David Evans last year, was diagnosed using a microscope and reveals that the animal had lived with cancer for some time - and would have had &#34;crippling&#34; effects on the Centrosaurus."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Dr Evans said the discovery shows that cancer is not a modern disease and has long-affected living things from prehistoric times."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Bone cancer in a dinosaur fossil",
+                        "caption": "Bone cancer found in a dinosaur fossil is helping transform cancer research today",
+                        "credit": null,
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25789321.ece/ALTERNATES/s510b/1_JHP_MSM_201021CANCER_04.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "He said: &#34;The bone cancer would have had a crippling effect on the Centrosaurus and made it vulnerable to predators. Living in a large herd may have helped it survive and allowed the cancer to reach such an advanced stage."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;This bone shows a clear link between human disease and diseases of the past, and it opens the door to greater understanding of the evolution of animal diseases.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The bone is now on display alongside other historic items at Manchester&#39;s Science and Industry Museum as part of its new Cancer Revolution exhibition."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Other items on display to the public for the first time are the UK&#39;s first radiotherapy device - which was used as part of an innovative cancer therapy treatment invented by Ernest and Francis Rock Carling in the 1930s - and a cast for holding in place radium seeds in the treatment of skin cancer of the hand from the 1950s."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "The UK's first radiotherapy device",
+                        "caption": "The UK's first radiotherapy device on display in Manchester",
+                        "credit": null,
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25789317.ece/ALTERNATES/s510b/2_JHP_MSM_201021CANCER_10.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "The radium teletherapy apparatus, which held four grams of radiation, was the start of a succession of experimental radiotherapy treatments at Manchester&#39;s nearby Christie Hospital, including cutting-edge high energy radiotherapy treatment Proton Beam therapy."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The trailblazing therapy, which was trialled last year, uses positive-charged particles to target the tumour cells."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "And the Proton Beam is not the only innovative new solution being showcased for the first time at the exhibition..."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "VR cancer maps",
+                        "caption": "Virtual reality allows researchers to step into and walk around tumours",
+                        "credit": null,
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25789299.ece/ALTERNATES/s510b/2_JHP_MSM_201021CANCER_12.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": " Cytosponge "
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "This sponge-like device, which is swallowed like a pill, is reshaping the early detection of oesophageal cancer."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The small capsule is attached to a fine string and, after swallowing, the capsule coating - made of vegetarian gelatin - dissolves in the stomach to release a small brush which when removed allows cell collection from the lining of the oesophagus."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "These cells are then analysed for abnormalities. Designed by the University of Cambridge&#39;s Professor Rebecca Fitzgerald, this is a simpler, cheaper and more effective tool than more traditional endoscopies."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": " Virtual reality "
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "VR cancer maps",
+                        "caption": "Virutal reality maps create a new way to see and study cancer",
+                        "credit": null,
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25789298.ece/ALTERNATES/s510b/1_JHP_MSM_201021CANCER_15.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "  "
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Cancer scientists have made an unusual collaboration with computer game designers, to build virtual reality tumours explored in a virtual reality lab."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Dr Dario Bressan, from Cancer Research UK&#39;s Cambridge Institute, has teamed up with virtual reality lead and computer game designer Owen Harris to create Cancer Grand Challenges IMAXT - the world&#39;s first virtual reality map of cancer."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "VR cancer map",
+                        "caption": "Cancer research has teamed up with computer game designers",
+                        "credit": null,
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25789521.ece/ALTERNATES/s510b/2_JHP_MSM_201021CANCER_16.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "The detailed, 3D picture of a tumour enables doctors and scientists to literally step into and walk around the anatomy of a tumor, to help them develop new ways to diagnose and treat cancer, stopping it from spreading and coming back."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": " The Galleri test "
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "The Galleri test",
+                        "caption": "The Galleri test can detect more than 50 cancers from one blood sample",
+                        "credit": null,
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25789296.ece/ALTERNATES/s510b/1_JHP_MSM_201021CANCER_29.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "  "
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "This simple blood test is designed to detect more than 50 types of cancer from one blood sample and is currently being trialled by the NHS."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "It works by identifying tiny molecular changes in DNA found in the blood and can detect cancer at earlier stages."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "If it proves to be effective, it could be a game-changer for early cancer diagnosis and rolled out to one million people in the UK across 2024-25."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": " Liquid biopsies "
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Science and Industry Museum in Manchester",
+                        "caption": "Manchester's Science and Industry Museum",
+                        "credit": null,
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25789320.ece/ALTERNATES/s510b/1_JHP_MSM_201021CANCER_01.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "  "
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Professor Caroline Dive, of Cancer Research UK&#39;s Manchester Institute, is using her TRACERx study to hunt cancer cells that have broken free from tumours and are circulating in the blood."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Professor Dive and her team are looking for these circulating tumour cells to understand how lung cancer changes as it grows and to predict who might experience cancer coming back after their tumour has been removed by surgery."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": " CAR-T cell thera py "
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Katie Dabin",
+                        "caption": "Exhibition curator Katie Dabin",
+                        "credit": null,
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25789539.ece/ALTERNATES/s510b/0_JHP_MSM_201021CANCER_02.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "This new form of immunotherapy treatment learns about how patients&#x2019; immune cells are being collected before retraining them in the lab to target cancer and returning them to the patient to treat their disease."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Since 2019, a team of clinicians at The Christie and Manchester University NHS Foundation Trust (MFT), have been treating certain patients with forms of blood cancer with this personalised form of immunotherapy."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The exhibition&#39;s lead curator Katie Dabin said: &#34;While we can&#x2019;t cancer-proof our lives, more people than ever before can be treated or live with the disease for a long time and we can take agency in the face of it &#x2013; from speaking more openly about it, being aware of its causes and symptoms, dispelling misconceptions and stigma, and being open to finding out more about it.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "   Cancer Revolution: Science, Innovation and Hope will be at Manchester&#39;s Science and Industry Museum until March 2022, before touring London.  "
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "The future of cancer predicted using dinosaur bones and virtual reality tumours",
+            "id": "25789233",
+            "leadMedia": {
+                "attributes": {
+                    "altText": null,
+                    "caption": "Using virtual reality to create �繥irtual reality maps�� of tumours - a new way to see and study cancer in more detail than ever before, on display at the 'Cancer Revolution: Science, innovation an hope' exhibition, at the Science and Industry Museum in Manchester. It is the first major object-rich exhibition exploring the revolution in science that is transforming cancer care.",
+                    "credit": null,
+                    "url": "https://i2-prod.mirror.co.uk/incoming/article25789297.ece/ALTERNATES/r500/1_JHP_MSM_201021CANCER_14.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "It&#39;s a night of extremes tonight, as one of the biggest meteor showers of the year is set to coincide with the winter solstice."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The Ursid meteor shower will be visible on the longest night of the year tonight, with lucky viewers in with the chance of catching a glorious display of shooting stars."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "At its peak, up to 10 shooting stars are expected per hour as they smash into the earth&#39;s atmosphere and leave trails of light in their wake as they burn up over our planet."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The shower is expected to brighten the night&#39;s sky and should be visible to people around the world."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "When is the best time to see the Ursid meteor shower?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Find the darkest place possible to view the shower",
+                        "caption": "Find the darkest place possible to view the shower",
+                        "credit": "Getty Images/500px",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article22496762.ece/ALTERNATES/s510b/0_Perseids.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "The shower is expected to peak on the night December 21, 2021, although it takes place from December 17 to 26. For the absolute peak, head out in the early hours of December 22 when it&#39;s nice and dark - there will be plenty because of the solstice."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The spectacle is expected to be visible through until Christmas Eve, but the rate meteors will be visible will slow as that time approaches."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The shower will be visible next year too, as the earth passes once again through the debris of the comet known as Tuttle."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "How to see the Ursid meteor shower"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "For the best chance of catching a glimpse and earning the opportunity to make a wish, it is advised stargazers get as far away from light sources as possible."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "If you can, get as far away from urban settings and any kind of man-made light source - you shouldn&#39;t need any special equipment to spot the shower although telescopes and binoculars certainly won&#39;t hurt."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The moon, which is large at the moment due to the December Cold Moon, may cause problems for some viewers."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Why is it called the Ursid meteor shower?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "A graphic on how to spot the shower",
+                        "caption": "A graphic on how to spot the shower",
+                        "credit": "Press Association Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article23199909.ece/ALTERNATES/s510b/0_SCIENCE-Ursids.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "The spectacle gets its name from the position in which it can be seen in the sky: The meteors appear near the Ursa Minor, or Little Bear, star constellation in the northern hemisphere."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Showers often get their name from the point their radiant point, as is the case here."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Although the rocks will break up in the earth atmosphere, it isn&#39;t the rocks themselves that cause the glowing trail behind them."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "NASA says: &#x201C;A meteor is a space rock &#x2013; or meteoroid &#x2013; that enters Earth&#x2019;s atmosphere."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#x201C;As the space rock falls toward Earth, the resistance &#x2013; or drag &#x2013; of the air on the rock makes it extremely hot. What we see is a &#x2018;shooting star&#x2019;. That bright streak is not actually the rock, but rather the glowing hot air as the hot rock zips through the atmosphere.&#x201D;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "When is the next meteor shower?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The Quadrantids meteor shower will be visible from December 26 2021 and January 16 2022. It is a much shorter event, with the peak only expected for six hours on January 2."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Despite needing clearer skies to spot the Quadrantids, up to 25 meteors an hour could be seen if you manage to find the right spot."
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Watch the Ursid meteor shower during tonight's solstice",
+            "id": "25751987",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "A star gazer in the Brecon Beacons National Park, Wales",
+                    "caption": "A star gazer in the Brecon Beacons National Park, Wales",
+                    "credit": "Rowan Griffiths \\\\ Daily Mirror",
+                    "url": "https://i2-prod.mirror.co.uk/incoming/article22762221.ece/ALTERNATES/r500/0_RGP_MDM_180119Beacons_06.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "A devastating solar storm could send mankind back to the dark ages, according to new research."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The phenomenon has been spotted for the first time in a stellar system just 100 light-years away."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Astronomers described the spectacular fireworks show as &#34;troubling&#34; - warning a similar event could hit Earth."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "It would fry satellites in orbit and crash power grids serving entire cities - causing widespread blackouts and knocking out phone networks."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The star is named EK Draconis - Latin for dragon. And it is breathing fire. It lies in the constellation of Draco in the far northern sky."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Known as a CME (corona mass ejection), the sun shoots out such eruptions on a regular basis."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Artist's depiction of an active sun that has released a coronal mass ejection or CME. CMEs are magnetically generated solar phenomenon that can send billions of tons of solar particles, or plasma, into space that can reach Earth one to three days later and affect electronic systems in satellites and on the ground.",
+                        "caption": "Geomagnetic storm could hit Earth tomorrow 'causing total chaos'",
+                        "credit": "NASA",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article24888964.ece/ALTERNATES/s510b/2_Geomagnetic-storm-could-hit-Earth-tomorrow-causing-total-chaos.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "They are made up of clouds of extremely-hot particles, or plasma, that hurtle through space at millions of miles an hour."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "And they are potentially bad news. Every 100 years or so, they are released in our direction."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Co-author Dr Yuta Notsu, of the University of Colorado Boulder, said: &#34;Coronal mass ejections can have a serious impact on Earth and human society.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The international team observed the astonishing burst of energy pouring out of EK Draconis. It was much more powerful than any seen before."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Experts fear a catastrophic solar storm will hit us - by the end of the century."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Study leader Kosuke Namekata, a PhD student at the National Astronomical Observatory of Japan, said it could be just as strong."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The researchers used ground and space-based telescopes to peer at EK Draconis - which resembles a young version of the sun."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "It emitted a mass of scorching plasma in the quadrillions of kilograms - over ten times bigger than the previous record from a sun-like star."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Illustration of a coronal mass ejection impacting the Earth s atmosphere. These events, CMEs for short, are powerful releases of solar charged particles (plasma) and magnetic field, travelling on the solar wind. When a CME hits Earth, it can cause a geomagnetic storm which disrupts the planet s magnetosphere, our radio transmissions and electrical power lines. They can damage artificial satellites and cause long-lasting power outages. Humans in orbit are also very vulnerable to these events, whose high-energy particles are not shield by typical spacecraft.",
+                        "caption": "A coronal mass ejection impacting the Earth's atmosphere",
+                        "credit": "Getty Images/Science Photo Library RF",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article22213495.ece/ALTERNATES/s510b/2_Earth-and-coronal-mass-ejection-illustration.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "Dr Notsu said: &#34;It may serve as a warning of just how dangerous the weather in space can be."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;This kind of big mass ejection could, theoretically, also occur on our Sun."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;This observation may also help us to better understand how similar events may have affected Earth and even Mars over billions of years.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "He explained CMEs often occur right after a star lets loose a flare or sudden and bright burst of radiation that can extend far out into space."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "An earlier study by the same group found young sun-like stars around the galaxy experience frequent &#39;superflares&#39;."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "They are like our own solar flares - but tens or even hundreds of times more potent."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Such a superflare could, theoretically, also happen on Earth&#39;s sun - and lead to an equally enormous CME."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Dr Notsu said: &#34;Superflares are much bigger than the flares we see from the sun."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;So we suspect they would also produce much bigger mass ejections. But until recently, that was just conjecture.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Space weather forecasters predict solar storm as Earth 'to be lashed by charged particles'",
+                        "caption": "Every 100 years or so the corona mass ejections are released in Earth's direction",
+                        "credit": "NASA",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25656657.ece/ALTERNATES/s510b/0_2021-11-20-7.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "He described EK Draconis as a &#34;curious star&#34;. It is about the same size as the sun - but just 100 million years old."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Dr Notsu said: &#34;It is what our sun looked like 4.5 billion years ago.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The researchers watched the star for 32 nights in winter and spring last year."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "They scanned it with NASA &#39;s TESS (Transiting Exoplanet Survey Satellite) and Japan&#39;s SEIMEI telescopes."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "On April 5, they got lucky as EK Draconis erupted into a superflare - a really big one. Half an hour later, a CME flew from the star&#39;s surface."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The researchers were only able to catch the first step in its life - the &#39;filament eruption&#39; phase."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "But even so, it was a monster - moving at a top speed of roughly one million miles per hour. It does not bode well for life on Earth."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The findings in Nature Astronomy hint the sun is also capable of such violent extremes."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "But, looking on the bright side, super CMEs are probably rarer in older stars."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "They may have been much more common in the early years of the solar system."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Gigantic coronal mass ejections, in other words, could have helped to shape planets like Earth and Mars into what they look like today."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "A handout picture shows Coronal Mass Ejection as viewed by the Solar Dynamics Observatory on June 7, 2011. The Sun unleashed an M-2 (medium-sized) solar flare, an S1-class (minor) radiation storm and a spectacular coronal mass ejection (CME) on June 7, 2011 from sunspot complex 1226-1227. The large cloud of particles mushroomed up and fell back down looking as if it covered an area of almost half the solar surface. The sun is entering a more active phase due to peak in 2013 on a roughly 11-year sunspot cycle, the World Meteorological Organization (WMO) said. Power supplies, air traffic control, communications and satellites can all be disrupted by storms.",
+                        "caption": "Coronal Mass Ejection showing a large cloud of particles which mushroomed and fell back to the solar surface as viewed by the Solar Dynamics Observatory in 2011",
+                        "credit": "Reuters",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article9645218.ece/ALTERNATES/s510b/0_A-handout-picture-shows-Coronal-Mass-Ejection-as-viewed-by-the-Solar-Dynamics-Observatory.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "Dr Notsu said: &#34;The atmosphere of present-day Mars is very thin compared to Earth&#39;s."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;In the past, we think Mars had a much thicker atmosphere. Coronal mass ejections may help us understand what happened to the planet over billions of years.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Two years ago researchers at the US Geological Survey predicted a solar storm could hit us at any moment - with no guarantee we&#39;ll spot it coming."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "They examined an event now known as the New York Railroad Storm, which plunged large parts of the northeastern United States into darkness in May 1921."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "According to the report, several gigantic CMEs bombarded Earth at once - juicing up Earth&#39;s magnetic field and causing widespread destruction."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "If it happened in the modern world, the cost would run into trillions of dollars."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "In 2012, a huge CME which could have decimated electronics missed the Earth by just nine days."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The event was comparable to the 1859 Carrington Event, in which telegraph operators suffered electric shocks and sparks exploded from pylons."
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Warning devastating solar storm 'could send mankind back to the Dark Ages'",
+            "id": "25656345",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "Space weather forecasters predict solar storm as Earth 'to be lashed by charged particles'",
+                    "caption": "Space weather forecasters predict solar storm as Earth 'to be lashed by charged particles'",
+                    "credit": "NASA",
+                    "url": "https://i2-prod.mirror.co.uk/incoming/article25656658.ece/ALTERNATES/r500/0_2021-11-20-6.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "Face coverings have become mandatory again on public transport and retail settings in the UK, as the government works to slow the spread of the new Omicron coronavirus variant."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Wearing a mask keeps you safe but it come with its own set of challenges such as acne and rashes."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "And, one of the biggest downfalls of wearing a mask - if you use glasses - is how much your lenses fog up and hamper your vision."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Taking off your glasses to wipe them clean each time it fogs up is not only frustrating, but it can also increase the risk of infection. So the key is to prevent or minimise fogging due to face masks."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Passengers, some wearing face coverings to combat the spread of Covid-19, travel on the London underground",
+                        "caption": "Wearing face masks keep us safe but can also cause issues like acne and rashes",
+                        "credit": "AFP via Getty Images",
+                        "url": "https://i2-prod.dailystar.co.uk/incoming/article25568412.ece/ALTERNATES/s510b/1_BRITAIN-HEALTH-VIRUS.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "Here&#x2019;s the science behind why your lenses fog up and some tricks to stop it."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Why do your glasses fog when you wear masks?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The science behind fogging is simple. It&#x2019;s caused by the difference in temperatures between our breath, our lenses and the environment."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The air we breathe our has water molecules which are forced up through poorly fitted masks onto the lenses of our glasses."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Since the air we exhale is usually warmer than the temperature of our glasses, it causes the air to condense onto to our lenses and fog them up."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Ways to prevent your glasses from fogging up"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "There are several tips and tricks to stop your glasses from fogging. These are five of the top tips."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Twisting your mask straps"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "One of the hacks that has been seen around the internet to prevent foggy lenses is twisting your mask straps once before wearing them and tucking them behind the ears."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "From the side, once you twist it, the elastics will look like the figure eight."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "This is great for stopping fogging because it redirects your breath by putting slight downward pressure on the top part of the mask. Though, it&#39;s worth noting that it does create a slight gap between the mask and your face that may leave you vulnerable."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Adjust your nose wires"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "A nose wire helps to seal the top of your mask and prevents warm air from seeping through."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "While most surgical masks already have built-in nose wires, you can easily make one of your own for any mask with pipe cleaners, paper clips, or jewellery wires, all of which can be secured along the mask with fabric glue."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "If your mask doesn&#39;t have a nose wire and you can&#39;t make one, you can simply secure the top and sides of your mask with surgical tape for the same protection."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Tattoo artist with a face mask",
+                        "caption": "Twisting the elastics of your mask is the top tip to prevent your glasses fogging up",
+                        "credit": "Getty Images/EyeEm",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25578000.ece/ALTERNATES/s510b/3_Tattooing-Safety-During-Coronavirus.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "Washing your glasses with soap"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "If you wash your glasses with soap, this creates a thin film on your lenses which limits fogging."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Use a fragrance-free soap and mix it with warm water. Soak your glasses in it and let it air dry. When you wear your glasses next, soap molecules on your lenses should block condensation."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "It&#39;s best if you let your glasses soak in overnight, but if you want to wear your glasses right away then make sure to gently wipe them with microfibre cloths, which usually come with your glasses."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Use tissues"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "You can put a tissue under the top part of the mask which will help catch air and moisture, keeping your lenses free of fog."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "To do this DIY trick properly, you should fold a tissue in half and place the straight edge along the bridge of your nose."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Make sure you have a steady supply of tissues on hand so that you can change the tissue once it becomes damp from your breath."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Change the position of your masks and glasses"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "If you pull up your mask and draw your glasses down, it can block your breath from rising upwards. But if you do this there are a few things to keep in mind."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Firstly, you need to make sure that your mask still covers your chin after you pull it up. And, if your prescription is stronger, this trick could impact your vision and cause increased blurriness."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "What to look for in a face mask?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "While any of the above tips work great to prevent fogging, the type of mask you wear also matters."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Qualities you should look for in a mask include :"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "   A seal along bridge of your nose and a close fit along the upper cheeks    Adjustable nose wires and straps for a tight fit    Full coverage of your chin to prevent need for repositioning when talking    Straight-fold along the nose and cheek for your glasses to rest on evenly    Moisture-absorbent material, but note that while masks made from light cotton or silks cause less fogging they don&#39;t offer enough protection against Covid-19  "
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Top tricks to stop your glasses from fogging up while wearing a face mask",
+            "id": "25581446",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "A member of bar staff wearing a face mask",
+                    "caption": "As face masks return in some settings in the UK, many who wear glasses will have to deal with foggy lenses",
+                    "credit": "AFP via Getty Images",
+                    "url": "https://i2-prod.mirror.co.uk/incoming/article25568979.ece/ALTERNATES/r500/1_BRITAIN-HEALTH-VIRUS-PUBS.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "Two supermassive black holes are spiralling towards each other and will merge into one colossal abyss, astronomers have said."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "It is the closest pair of black holes found to date as a cataclysmic collision is said to be inevitable."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The two black holes are 80 million light-years away from Earth but are just 1,600 light-years apart from each other."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Lead author Dr Karina Voggel, of the University of Strasbourg, said: &#34;They have a much smaller separation than any other previously spotted pair of supermassive black holes."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;They will eventually merge into one giant black hole.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "When they come together it will send out gravitational waves, or ripples in space and time, just as predicted in Albert Einstein&#39;s general theory of relativity."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "Black holes are formed when very massive stars collapse at the end of their life cycle",
+                        "caption": "Supermassive black holes grow in mass as they devour matter and radiation",
+                        "credit": "Getty Images/Science Photo Library RF",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25580133.ece/ALTERNATES/s510b/1_Black-hole-illustration.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "The bigger of the two black holes have a mass almost 154 million times that of the Sun."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The black holes are at the centre of a dense group of bright stars that were captured by ESO&#39;s (European Space Observatory&#39;s) Very Large Telescope (VLT) in Chile."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Dr Voggel said: &#34;The two black holes are on a collision course and form the closest pair of supermassive black holes found to date."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;It is also the pair with the smallest separation between two supermassive black holes found to date - observed to be just 1,600 light-years apart in the sky.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "This is an illustration of a black hole, which are formed when very massive stars collapse at the end of their life cycle",
+                        "caption": "This is an illustration of a black hole, which are formed when very massive stars collapse at the end of their life cycle",
+                        "credit": "Getty Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article24642366.ece/ALTERNATES/s510b/0_Black-hole-concept-with-deep-universe-galaxy-planets-stars.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "Black holes, which come in different sizes, are formed when very massive stars collapse at the end of their life cycle."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Supermassive black holes are the largest kind, growing in mass as they devour matter and radiation and perhaps merge with other black holes."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "These phenomenally dense celestial entities are extraordinarily difficult to observe despite their great mass because it does not allow light to escape."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The size of the black holes was calculated from the gravitational pull of the stars around them and was made possible because of how close the system is to earth."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "A scanner called MUSE (Multi-Unit Spectroscopic Explorer) was mounted on the telescope and Hubble data confirmed the supermassive black holes."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Astronomers also say these findings could mean there are more black holes merging out there."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Dr Voggel said: &#34;Our finding implies there might be many more of these relics of galaxy mergers out there."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;They may contain many hidden massive black holes that still wait to be found."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;It could increase the total number of supermassive black holes known in the local universe by 30 per cent.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The search for similarly hidden supermassive black hole pairs is set to make a great leap forward with ESO&#39;s Extremely Large Telescope (ELT)."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "It is also being built in the Atacama Desert just 12 miles from the VLT - and is due to be in operation before the end of the decade."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Co-author Dr Steffen Mieske said: &#34;This detection of a supermassive black hole pair is just the beginning."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "&#34;With the HARMONI instrument on the ELT, we will be able to make detections like this considerably further than currently possible.&#34;"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "He added: &#34;ESO&#39;s ELT will be integral to understanding these objects.&#34;"
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Two supermassive black holes spiralling towards each other expected to collide",
+            "id": "25580013",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "This image shows close-up (left) and wide (right) views of the two bright galactic nuclei, each housing a supermassive black hole",
+                    "caption": "This image shows close-up (left) and wide (right) views of the two bright galactic nuclei, each housing a supermassive black hole",
+                    "credit": "ESO/Voggel et al.; ESO/VST ATLAS SWNS",
+                    "url": "https://i2-prod.mirror.co.uk/incoming/article25580065.ece/ALTERNATES/r500/0_EMB-SWNS_BLACK_HOLES_001.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        },
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "NASA is set to launch an ambitious mission to avert a possibly dangerous asteroid from a future collision with Earth by deliberately crashing a satellite into it."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The space agency will be using the DART satellite for its mission, launching the defence technology with the aim of smashing into Didymos, an asteroid which consists of a small rock circling a larger one."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "NASA&#x2019;s target is specifically the smaller asteroid, called Dimorphos, which is believed to mimic how near-Earth asteroids orbit the sun."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Planetary defence officer, Lindley Johnson explained that this technique is &#x201C;the most technologically mature approach,&#x201D; to target any dangerous asteroids."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "This artist's illustration obtained from NASA on November 4, 2021 shows the DART spacecraft from behind prior to impact at the Didymos binary system.",
+                        "caption": "The DART mission aims to knock off a dangerous asteroid off its course and prevent it from reaching Earth",
+                        "credit": "NASA/AFP via Getty Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25520552.ece/ALTERNATES/s510b/2_US-SPACE-ASTEROID-NASA-DART.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "Here&#39;s everything you need to know about the DART mission which the space station have termed &#39;a feat so far seen only in science fiction films&#39;."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "When is NASA launching the DART mission and can you watch it live?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The satellite will be launched on a SpaceX Falcon 9 rocket from Vandenberg Space Force Base in California."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "NASA&#x2019;s target launch window will open today November 23 at 10.20pm local time, which is in the early hours of the morning, 6.20am on Wednedsay, November 24, in the UK."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "This is just the time when the launch window opens, not the blast-off time, as the exact timings for this will be announced later."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "You can watch the launch live on the internet via NASA TV."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "How much will this mission to stop the asteroid cost NASA?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "According to Nasa, around $308 million (&#xA3;230 million) was spent on spacecraft development, $68.8 million (&#xA3;51.5m) went towards launch services and and $16.5 million (&#xA3;12.3m) is expected to spent on operations and data analysis."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "How will the DART mission stop an asteroid&#39;s impact?"
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "Though the impact of the satellite won&#x2019;t happen until 2022, if successful the mission as the potential to save the Earth from apocalyptic danger."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The DART satellite is about the size of the bus and when it hits the asteroid, it will be travelling at 4.1 miles per second, and crash into the asteroid at roughly 14,500 miles per hour."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": null,
+                        "caption": "Though impact is not expect till 2022, the hope is that the satellite is powerful enough to either destroy the asteroid or at least knock it off course",
+                        "credit": "Getty Images",
+                        "url": "https://i2-prod.mirror.co.uk/incoming/article25484276.ece/ALTERNATES/s510b/1_GettyImages-160936163.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "Scientists are hoping that when the satellite hits Dimorphos at this speed it will either destroy the rock or steer it onto a new course."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "text": "The mission overview from Johns Hopkins University&#x2019;s Applied Physics Laboratory explains, &#34;Mostly, what we&#x2019;re looking to do is change the speed of the incoming object by a centimetre per second or so. That&#x2019;s not very fast, but if you do it enough seconds in advance, you can cause it to miss the Earth entirely.&#34;"
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Inside NASA's daring new mission to stop an asteroid destroying the Earth",
+            "id": "25525411",
+            "leadMedia": {
+                "attributes": {
+                    "altText": null,
+                    "caption": "DART will be NASA's first planetary defense mission and is quite ambitious",
+                    "credit": "NASA",
+                    "url": "https://i2-prod.mirror.co.uk/incoming/article21954830.ece/ALTERNATES/r500/2_dart_20200413-1adapt19001.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        }
+    ]
+}
