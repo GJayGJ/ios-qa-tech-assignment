@@ -8,9 +8,10 @@
 
 import XCTest
 
-
 final class NewsListUITests: XCTestCase {
     var app: XCUIApplication!
+    
+    // MARK: Life Cycle
     
     override func setUpWithError() throws {
         continueAfterFailure = false
@@ -29,22 +30,37 @@ final class NewsListUITests: XCTestCase {
         app = nil
     }
     
-    // TODO: Modify the fixed number to variable
-    /// 1. Test that the app correctly displays a list of 20 articles
-    func testArticlesDeisplayed() throws {
-        app.launchEnvironment["MOCK_NEWS"] = "MockTwentyNewsData"
+    
+    // MARK: Utilities
+    
+    func launchAppWithMockData(_ mockData: String) {
+        app.launchEnvironment["MOCK_NEWS"] = mockData
         app.launch()
-        
-        let tableView = app.tables["newsListTable"]
-        // Wait for the table view to appear
+    }
+    
+    func waitForTableView(_ tableView: XCUIElement, timeout: TimeInterval = 5) {
         let exists = NSPredicate(format: "exists == true")
         expectation(for: exists, evaluatedWith: tableView, handler: nil)
-        waitForExpectations(timeout: 5, handler: nil)
-        
+        waitForExpectations(timeout: timeout, handler: nil)
         XCTAssertTrue(tableView.exists)
-        let rowCount = tableView.cells.count
+    }
+    
+    func resetUserDefaults() {
+        app.launchArguments.append("--resetUserDefaults")
+    }
+    
+    
+    // MARK: Test Cases
+    
+    /// 1. Test that the app correctly displays a list of 20 articles
+    func testArticlesDeisplayed() throws {
+        launchAppWithMockData("MockTwentyNewsData")
         
-        XCTAssertEqual(rowCount, 20, "There are exactly 20 articles")
+        let tableView = app.tables["newsListTable"]
+        waitForTableView(tableView)
+        
+        let rowCount = tableView.cells.count
+        XCTAssertEqual(rowCount, 20, "There should be exactly 20 articles displayed.")
     }
     
     /// 2. Test that bookmarking an article behaves as expected
@@ -52,21 +68,19 @@ final class NewsListUITests: XCTestCase {
         app.launch()
         
         let tableView = app.tables["newsListTable"]
-        // Wait for the table view to appear
-        let exists = NSPredicate(format: "exists == true")
-        expectation(for: exists, evaluatedWith: tableView, handler: nil)
-        waitForExpectations(timeout: 5, handler: nil)
-        
-        XCTAssertTrue(tableView.exists)
+        waitForTableView(tableView)
         
         let rowCount = tableView.cells.count
         let randomIndex = Int.random(in: 0..<rowCount)
         
-        tableView.cells["article\(randomIndex)"].buttons["addBookmarkButton"].tap()
+        let unbookmarkedCell = tableView.cells["article\(randomIndex)"]
+        unbookmarkedCell.buttons["addBookmarkButton"].tap()
+
         app.terminate()
-        
         XCUIApplication().launch()
-        tableView.cells["article\(randomIndex)"].buttons["removeBookmarkButton"].tap()
+
+        let bookmarkedCell = tableView.cells["article\(randomIndex)"]
+        bookmarkedCell.buttons["removeBookmarkButton"].tap()
     }
     
     /// 3. Test that sorting alphabetically by headline works as expected
@@ -74,15 +88,11 @@ final class NewsListUITests: XCTestCase {
         app.launch()
         
         let tableView = app.tables["newsListTable"]
-        // Wait for the table view to appear
-        let exists = NSPredicate(format: "exists == true")
-        expectation(for: exists, evaluatedWith: tableView, handler: nil)
-        waitForExpectations(timeout: 5, handler: nil)
-        
-        XCTAssertTrue(tableView.exists)
+        waitForTableView(tableView)
 
         app.navigationBars["Top Stories"].buttons["Sort"].tap()
         app.collectionViews.buttons["Alphabetically By Title"].tap()
+        
         let cells = tableView.cells.allElementsBoundByIndex
         let haedLines = cells.map { $0.staticTexts.element(boundBy: 0).label }
         XCTAssertEqual(haedLines, haedLines.sorted(), "Headlines are not sorted alphabetically.")
@@ -93,16 +103,12 @@ final class NewsListUITests: XCTestCase {
         app.launch()
         
         let tableView = app.tables["newsListTable"]
-        // Wait for the table view to appear
-        let exists = NSPredicate(format: "exists == true")
-        expectation(for: exists, evaluatedWith: tableView, handler: nil)
-        waitForExpectations(timeout: 5, handler: nil)
-        
-        XCTAssertTrue(tableView.exists)
+        waitForTableView(tableView)
         
         let rowCount = tableView.cells.count
         // At least two rows are required to conduct sorting test
         guard rowCount > 1 else { return }
+        
         let randomBookmarkedItemCount = Int.random(in: 1...rowCount)
         if let uniqueRandomIndices = Array.uniqueRandomIntegers(count: randomBookmarkedItemCount, in: 0..<rowCount) {
             for uniqueRandomIndex in uniqueRandomIndices {
@@ -121,8 +127,8 @@ final class NewsListUITests: XCTestCase {
     }
     
     /// 5. Test that all types are correctly displayed in the list e.g. news, opinion, live
+    /// - Testing data is not accepted because the type "live" is missing in the project code.
     func testArticleTypesDeisplayed() throws {
-        app.launchEnvironment["MOCK_NEWS"] = "MockAllTypesOfNewsData"
-        app.launch()
+        launchAppWithMockData("MockAllTypesOfNewsData")
     }
 }
