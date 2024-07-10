@@ -33,19 +33,19 @@ final class NewsListUITests: XCTestCase {
     
     // MARK: Utilities
     
-    func launchAppWithMockData(_ mockData: String) {
+    private func launchAppWithMockData(_ mockData: String) {
         app.launchEnvironment["MOCK_NEWS"] = mockData
         app.launch()
     }
     
-    func waitForTableView(_ tableView: XCUIElement, timeout: TimeInterval = 5) {
+    private func waitForTableView(_ tableView: XCUIElement, timeout: TimeInterval = 5) {
         let exists = NSPredicate(format: "exists == true")
         expectation(for: exists, evaluatedWith: tableView, handler: nil)
         waitForExpectations(timeout: timeout, handler: nil)
         XCTAssertTrue(tableView.exists)
     }
     
-    func resetUserDefaults() {
+    private func resetUserDefaults() {
         app.launchArguments.append("--resetUserDefaults")
     }
     
