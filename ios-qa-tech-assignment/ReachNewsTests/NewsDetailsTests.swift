@@ -5,10 +5,23 @@
 //  Created by Felipe Scarpitta on 29/09/2022.
 //
 
-@testable import ReachNews
 import XCTest
+@testable import ReachNews
 
 class NewsDetailsTest: XCTestCase {
+    
+    override func setUpWithError() throws {
+        
+    }
+
+    override func tearDownWithError() throws {
+        
+    }
+
+    func testExample() throws {
+        
+    }
+    
     func testHeadlineValue() throws {
         let newsDetailsViewModel = createNewsDetailsViewModelMock()
         

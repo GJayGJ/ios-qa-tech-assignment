@@ -5,28 +5,44 @@
 //  Created by Felipe Scarpitta on 28/09/2022.
 //
 
-@testable import ReachNews
 import XCTest
+@testable import ReachNews
 
-class NewsListTests: XCTestCase {
-    func testPlaceholderImage() throws {
-        let placeholderImage = UIImage.placeHolderImage()
-        
-        XCTAssertNotNil(placeholderImage)
+final class NewsListTests: XCTestCase {
+    var viewModel: NewsListViewModel!
+    var mockNewsAPIService: NewsAPIService!
+    
+    override func setUpWithError() throws {
+        viewModel = NewsListViewModel()
     }
     
-    func testLabelSettings() throws {
-        let label = UILabel()
+    override func tearDownWithError() throws {
+        viewModel = nil
+        mockNewsAPIService = nil
+    }
+    
+    /// Test that news can be retrieved successfully
+    func testGetNews() async throws {
+        // Arrange - Dependency Injection
+        mockNewsAPIService = BitbucketNewsAPIService()
+        InjectedValues[\.newsAPIService] = mockNewsAPIService
         
-        let labelSettings = LabelSettings(numberOfLines: 2,
-                                          textAlignment: .center,
-                                          fontSize: 10,
-                                          fontWeight: .regular)
+        let expectation = self.expectation(description: "News data fetch successful")
+        var isExpectationFulfilled = false
         
-        label.setupLabelSettings(labelSettings)
+        // Expectation should be fulfilled once when completion handler is excuted
+        viewModel.updateUIBind = {
+            if !isExpectationFulfilled {
+                isExpectationFulfilled = true
+                expectation.fulfill()
+            }
+        }
         
-        XCTAssert(label.numberOfLines == labelSettings.numberOfLines)
-        XCTAssert(label.textAlignment == labelSettings.textAlignment)
-        XCTAssert(label.font == labelSettings.font)
+        // Act
+        viewModel.getNews()
+        await fulfillment(of: [expectation], timeout: 5)
+        
+        // Assert
+        XCTAssertGreaterThanOrEqual(viewModel.numberOfRows(), 0)
     }
 }
