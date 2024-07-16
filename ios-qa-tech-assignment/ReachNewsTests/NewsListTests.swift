@@ -30,7 +30,7 @@ final class NewsListTests: XCTestCase {
         setupMockService()
         
         // Act
-        await fetchNewsData(expectationDescription: "News data fetch successful")
+        await fetchNewsData(expectationDescription: "News data fetched successfully")
         
         // Assert
         XCTAssertGreaterThanOrEqual(viewModel.numberOfRows(), 0)
@@ -67,7 +67,7 @@ final class NewsListTests: XCTestCase {
         setupMockService(fileName: "MockTwentyNewsData")
         
         // Act
-        await fetchNewsData(expectationDescription: "News data fetch successful")
+        await fetchNewsData(expectationDescription: "News data fetched successfully")
         
         // Assert
         XCTAssertEqual(viewModel.numberOfRows(), 20)
@@ -79,7 +79,7 @@ final class NewsListTests: XCTestCase {
         setupMockService(fileName: "MockTwentyNewsData")
         
         // Act
-        await fetchNewsData(expectationDescription: "News data fetch successful")
+        await fetchNewsData(expectationDescription: "News data fetched successfully")
         
         // Assert - Verify the cellViewModel for a valid index path
         let indexPath = IndexPath(row: 0, section: 0)
@@ -93,7 +93,7 @@ final class NewsListTests: XCTestCase {
         setupMockService(fileName: "MockTwentyNewsData")
         
         // Act
-        await fetchNewsData(expectationDescription: "News data fetch successful")
+        await fetchNewsData(expectationDescription: "News data fetched successfully")
         
         // Assert - Verify the newsDetailsViewModel for a valid index path
         let indexPath = IndexPath(row: 0, section: 0)
