@@ -9,64 +9,190 @@ import XCTest
 @testable import ReachNews
 
 class NewsDetailsTest: XCTestCase {
+    var newsListViewModel: NewsListViewModel!
+    var newsDetailsViewModel: NewsDetailsViewModel!
+    var mockNewsAPIService: NewsAPIService!
     
     override func setUpWithError() throws {
-        
+        newsListViewModel = NewsListViewModel()
     }
-
+    
     override func tearDownWithError() throws {
-        
+        newsListViewModel = nil
+        newsDetailsViewModel = nil
+        mockNewsAPIService = nil
     }
+    
+    
+    // MARK: Unit Test Cases
+    
+    /// Test that images can be retrieved successfully
+    func testGetLeadMediaSuccess() async throws {
+        // Arrange - NewsListViewModel
+        setupMockService(fileName: "MockTwentyNewsData")
+        await fetchNewsData(expectationDescription: "News data fetched successfully")
+        
+        // Arrange - NewsDetailsViewModel
+        let rowCount = newsListViewModel.numberOfRows()
+        let randomIndex = Int.random(in: 0..<rowCount)
+        newsDetailsViewModel = newsListViewModel.newsDetailsViewModel(at: IndexPath(row: randomIndex, section: 0))
+        
+        // Arrange - mock image data
+        let mockImageAPIService = MockImageAPIService()
+        InjectedValues[\.imageAPIService] = mockImageAPIService
+        let expectation = self.expectation(description: "Lead media fetched successfully")
+        var isExpectationFulfilled = false
+        
+        // Expectation should be fulfilled once when completion handler is executed
+        newsDetailsViewModel.leadMediaBind = { data in
+            if !isExpectationFulfilled {
+                isExpectationFulfilled = true
+                expectation.fulfill()
 
-    func testExample() throws {
+                // Assert
+                XCTAssertNotNil(data)
+                XCTAssertFalse(data!.isEmpty)
+                XCTAssertEqual(data!.toImage().size.width, 300)
+                XCTAssertEqual(data!.toImage().size.height, 158)
+            }
+        }
         
+        // Act
+        try await newsDetailsViewModel.getLeadMedia()
+        await fulfillment(of: [expectation], timeout: 5)
     }
     
-    func testHeadlineValue() throws {
-        let newsDetailsViewModel = createNewsDetailsViewModelMock()
+    /// Test that bookmarks can be toggled correctly
+    func testToggleBookmark() async throws {
+        // Arrange - NewsListViewModel
+        setupMockService(fileName: "MockTwentyNewsData")
+        await fetchNewsData(expectationDescription: "News data fetched successfully")
+
+        // Arrange - NewsDetailsViewModel
+        let rowCount = newsListViewModel.numberOfRows()
+        let randomIndex = Int.random(in: 0..<rowCount)
+        newsDetailsViewModel = newsListViewModel.newsDetailsViewModel(at: IndexPath(row: randomIndex, section: 0))
         
-        let expectedHeadline = "Headline test"
+        // Arrange - bookmarked state
+        let initialBookmarkState = newsDetailsViewModel.isBookmarked
         
-        XCTAssert(newsDetailsViewModel.headline == expectedHeadline)
+        // Act
+        newsDetailsViewModel.toggleBookmark()
+        
+        // Assert
+        let updatedBookmarkState = newsDetailsViewModel.isBookmarked
+        XCTAssertNotEqual(updatedBookmarkState, initialBookmarkState)
     }
     
-    func testImagesContentCount() throws {
-        let newsDetailsViewModel = createNewsDetailsViewModelImagesMock()
+    /// Test that image credit is returned correctly
+    func testImageCredit() async throws {
+        // Arrange - NewsListViewModel
+        setupMockService(fileName: "MockOnlyOneNewsData")
+        await fetchNewsData(expectationDescription: "News data fetched successfully")
         
-        let expectedContentsWithImage = 2
+        // Arrange - NewsDetailsViewModel
+        newsDetailsViewModel = newsListViewModel.newsDetailsViewModel(at: IndexPath(row: 0, section: 0))
         
-        XCTAssert(newsDetailsViewModel.contentsWithImages == expectedContentsWithImage)
+        // Act
+        let imageCredit = newsDetailsViewModel.imageCredit
+        
+        // Assert
+        XCTAssertEqual(imageCredit, "mock")
     }
     
-    private func createNewsDetailsViewModelMock() -> NewsDetailsViewModel {
-        let contents = [Content(attributes: ContentAttribute(text: "&#62;Text 1&#171;", altText: nil, caption: nil, credit: nil, url: nil), type: .text),
-                        Content(attributes: ContentAttribute(text: "&#62;Text 2&#171;", altText: nil, caption: nil, credit: nil, url: nil), type: .text),
-                        Content(attributes: ContentAttribute(text: "&#62;Text 3!!!", altText: nil, caption: nil, credit: nil, url: nil), type: .text),
-                        Content(attributes: ContentAttribute(text: "NOT TO BE ADDED", altText: nil, caption: nil, credit: nil, url: nil), type: .image)]
+    /// Test that headline is returned correctly
+    func testHeadline() async throws {
+        // Arrange - NewsListViewModel
+        setupMockService(fileName: "MockOnlyOneNewsData")
+        await fetchNewsData(expectationDescription: "News data fetched successfully")
         
-        let leadMedia = Content(attributes: ContentAttribute(text: nil, altText: nil, caption: nil, credit: nil, url: nil), type: .image)
+        // Arrange - NewsDetailsViewModel
+        newsDetailsViewModel = newsListViewModel.newsDetailsViewModel(at: IndexPath(row: 0, section: 0))
         
-        let article = Article(contents: contents, headline: "Headline test", id: "1", leadMedia: leadMedia, type: .news)
+        // Act
+        let headline = newsDetailsViewModel.headline
         
-        let newsDetailsViewModelDependencies = NewsDetailsViewModel.Dependencies(article: article)
-        
-        return NewsDetailsViewModel(dependencies: newsDetailsViewModelDependencies)
+        // Assert
+        XCTAssertEqual(headline, "Mock Title")
     }
     
-    private func createNewsDetailsViewModelImagesMock() -> NewsDetailsViewModel {
-        let imageMock = "https://bitbucket.org/trinitymirror-ondemand/ios-tech-test/src/main/images/reach-logo.svg"
+    /// Test that full description is returned correctly
+    func testFullDescription() async throws {
+        // Arrange - NewsListViewModel
+        setupMockService(fileName: "MockOnlyOneNewsData")
+        await fetchNewsData(expectationDescription: "News data fetched successfully")
         
-        let contents = [Content(attributes: ContentAttribute(text: "Test 1", altText: nil, caption: nil, credit: nil, url: nil), type: .text),
-                        Content(attributes: ContentAttribute(text: nil, altText: nil, caption: nil, credit: nil, url: imageMock), type: .image),
-                        Content(attributes: ContentAttribute(text: "Test 2", altText: nil, caption: nil, credit: nil, url: nil), type: .text),
-                        Content(attributes: ContentAttribute(text: nil, altText: nil, caption: nil, credit: nil, url: imageMock), type: .image)]
+        // Arrange - NewsDetailsViewModel
+        newsDetailsViewModel = newsListViewModel.newsDetailsViewModel(at: IndexPath(row: 0, section: 0))
         
-        let leadMedia = Content(attributes: ContentAttribute(text: nil, altText: nil, caption: nil, credit: nil, url: nil), type: .image)
+        // Act
+        let fullDescription = newsDetailsViewModel.fullDescription
         
-        let article = Article(contents: contents, headline: "Headline test", id: "2", leadMedia: leadMedia, type: .news)
+        // Assert
+        let expectedFullDescription = "This is mock data.\n\nThis is mock data.\n\nThis is mock data\n\n"
+        XCTAssertEqual(fullDescription, expectedFullDescription)
+    }
+    
+    /// Test that tag name is returned correctly
+    func testTagName() async throws {
+        // Arrange - NewsListViewModel
+        setupMockService(fileName: "MockOnlyOneNewsData")
+        await fetchNewsData(expectationDescription: "News data fetched successfully")
         
-        let newsDetailsViewModelDependencies = NewsDetailsViewModel.Dependencies(article: article)
+        // Arrange - NewsDetailsViewModel
+        newsDetailsViewModel = newsListViewModel.newsDetailsViewModel(at: IndexPath(row: 0, section: 0))
         
-        return NewsDetailsViewModel(dependencies: newsDetailsViewModelDependencies)
+        // Act
+        let tagName = newsDetailsViewModel.tagName
+        
+        // Assert
+        XCTAssertEqual(tagName, "News")
+    }
+    
+    
+    /// Test that contents with images count is correct
+    func testContentsWithImages() async throws {
+        // Arrange - NewsListViewModel
+        setupMockService(fileName: "MockOnlyOneNewsData")
+        await fetchNewsData(expectationDescription: "News data fetched successfully")
+        
+        // Arrange - NewsDetailsViewModel
+        newsDetailsViewModel = newsListViewModel.newsDetailsViewModel(at: IndexPath(row: 0, section: 0))
+        
+        // Act
+        let contentsWithImagesCount = newsDetailsViewModel.contentsWithImages
+        
+        // Assert
+        XCTAssertEqual(contentsWithImagesCount, 2)
+    }
+    
+    
+    // MARK: private functions
+    
+    /// Arrange - Dependency Injection for News
+    private func setupMockService(fileName: String? = nil) {
+        if let fileName = fileName {
+            mockNewsAPIService = MockNewsAPIService(fileName: fileName)
+        } else {
+            mockNewsAPIService = BitbucketNewsAPIService()
+        }
+        InjectedValues[\.newsAPIService] = mockNewsAPIService
+    }
+    
+    /// Prepare for the required news data
+    private func fetchNewsData(expectationDescription: String) async {
+        let expectation = self.expectation(description: expectationDescription)
+        var isExpectationFulfilled = false
+        
+        // Expectation should be fulfilled once when completion handler is executed
+        newsListViewModel.updateUIBind = {
+            if !isExpectationFulfilled {
+                isExpectationFulfilled = true
+                expectation.fulfill()
+            }
+        }
+        
+        newsListViewModel.getNews()
+        await fulfillment(of: [expectation], timeout: 5)
     }
 }

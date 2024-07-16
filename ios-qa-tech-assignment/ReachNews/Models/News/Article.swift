@@ -14,6 +14,7 @@ struct Article: Codable {
     let leadMedia: Content
     let type: ArticleType
 
+    // TODO: Add `live`
     enum ArticleType: String, Codable {
         case news, opinion
     }

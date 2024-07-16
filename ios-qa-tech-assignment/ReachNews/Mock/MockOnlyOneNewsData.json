@@ -1,0 +1,58 @@
+{
+    "name": "Science",
+    "type": "articles",
+    "articles": [
+        {
+            "content": [
+                {
+                    "attributes": {
+                        "text": "This is mock data."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "This is mock data.",
+                        "caption": "This is mock data.",
+                        "credit": "elevenplusexams",
+                        "url": "https://mocks.elevenplusexams.co.uk/assets/uncompiled/online_mocks1.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "This is mock data."
+                    },
+                    "type": "text"
+                },
+                {
+                    "attributes": {
+                        "altText": "This is mock data",
+                        "caption": "This is mock data",
+                        "credit": "ytimg",
+                        "url": "https://i.ytimg.com/vi/Jpy-tOoqPb8/maxresdefault.jpg"
+                    },
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "text": "This is mock data"
+                    },
+                    "type": "text"
+                }
+            ],
+            "headline": "Mock Title",
+            "id": "00000001",
+            "leadMedia": {
+                "attributes": {
+                    "altText": "Mock alt",
+                    "caption": "Mock caption",
+                    "credit": "mock",
+                    "url": "https://img.freepik.com/premium-vector/mock-data-icon-vector-image-can-be-used-software-testing_120816-344530.jpg"
+                },
+                "type": "image"
+            },
+            "type": "news"
+        }
+    ]
+}
