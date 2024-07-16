@@ -25,8 +25,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let newsListViewModel: NewsListViewModel = NewsListViewModel()
         
         #if DEBUG
-        if let _ = ProcessInfo.processInfo.environment["MOCK_NEWS"] {
-            InjectedValues[\.newsAPIService] = MockNewsAPIService()
+        if let mockNewsFileName = ProcessInfo.processInfo.environment["MOCK_NEWS"] {
+            InjectedValues[\.newsAPIService] = MockNewsAPIService(fileName: mockNewsFileName)
         }
         #endif
         

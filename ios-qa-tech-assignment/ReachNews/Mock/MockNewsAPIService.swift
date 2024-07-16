@@ -9,9 +9,17 @@
 import Foundation
 
 class MockNewsAPIService: NewsAPIService {
+    var mockFileName: String?
+    
+    init(fileName: String? = nil) {
+        self.mockFileName = fileName
+    }
+    
     func getNewsData() async throws -> [Article] {
-        let mockNewsDataName = ProcessInfo.processInfo.environment["MOCK_NEWS"]
-        let fileURL = Bundle.main.url(forResource: mockNewsDataName, withExtension: "json")!
+        if mockFileName == nil {
+            mockFileName = ProcessInfo.processInfo.environment["MOCK_NEWS"]
+        }
+        let fileURL = Bundle.main.url(forResource: mockFileName, withExtension: "json")!
         let data = try! Data(contentsOf: fileURL)
         let newsServiceOutput = try JSONDecoder().decode(NewsServiceOutput.self, from: data)
         return newsServiceOutput.articles
