@@ -12,6 +12,8 @@ final class NewsListTests: XCTestCase {
     var viewModel: NewsListViewModel!
     var mockNewsAPIService: NewsAPIService!
     
+    // MARK: Life Cycle
+
     override func setUpWithError() throws {
         viewModel = NewsListViewModel()
     }

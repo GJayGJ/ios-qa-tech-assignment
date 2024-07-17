@@ -14,6 +14,8 @@ final class NewsListTableCellTests: XCTestCase {
     var newsTableCellViewModel: NewsTableCellViewModel!
     var mockNewsAPIService: NewsAPIService!
     
+    // MARK: Life Cycle
+    
     override func setUpWithError() throws {
         newsListViewModel = NewsListViewModel()
     }

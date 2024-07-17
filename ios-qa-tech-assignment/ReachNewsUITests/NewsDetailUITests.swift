@@ -31,24 +31,6 @@ final class NewsDetailUITests: XCTestCase {
     }
     
     
-    // MARK: Utilities
-    
-    private func waitForTableView() -> XCUIElement {
-        let tableView = app.tables["newsListTable"]
-        let exists = NSPredicate(format: "exists == true")
-        expectation(for: exists, evaluatedWith: tableView, handler: nil)
-        waitForExpectations(timeout: 5, handler: nil)
-        XCTAssertTrue(tableView.exists)
-        return tableView
-    }
-    
-    private func waitForScrollView() -> XCUIElement {
-        let scrollView = app.scrollViews["articleDetailScrollView"]
-        XCTAssertTrue(scrollView.waitForExistence(timeout: 5))
-        return scrollView
-    }
-    
-    
     // MARK: Test Cases
     
     /// 1. Test that bookmarking an article behaves as expected
@@ -57,9 +39,9 @@ final class NewsDetailUITests: XCTestCase {
         app.launch()
         let tableView = waitForTableView()
         
+        // Prepare a random row in the table
         let rowCount = tableView.cells.count
         let randomIndex = Int.random(in: 0..<rowCount)
-        
         let isNotBookmarkedRow = tableView.cells["article\(randomIndex)"]
         let isNotBookmarkedButton =  isNotBookmarkedRow.buttons["addBookmarkButton"]
         XCTAssertTrue(isNotBookmarkedButton.exists)
@@ -67,7 +49,7 @@ final class NewsDetailUITests: XCTestCase {
         // Tap the row that is not bookmarked, and the detail view is pushed into.
         isNotBookmarkedRow.tap()
         // Make sure the ScrollView appears
-        let scrollView = waitForScrollView()
+        _ = waitForScrollView()
         
         // Not bookmarked -> bookedmarked
         XCTAssertTrue(app.staticTexts["Add To Bookmarks"].exists)
@@ -84,6 +66,7 @@ final class NewsDetailUITests: XCTestCase {
         app.launch()
         let tableView = waitForTableView()
         
+        // Prepare a random row in the table and tap it
         let rowCount = tableView.cells.count
         let randomIndex = Int.random(in: 0..<rowCount)
         tableView.cells["article\(randomIndex)"].tap()
@@ -96,6 +79,7 @@ final class NewsDetailUITests: XCTestCase {
             scrollView.swipeUp()
         }
         
+        // Ensure each element is present
         XCTAssert(app.images["headlineImageView"].exists)
         XCTAssert(app.buttons["tagButton"].exists)
         XCTAssert(app.buttons["toggleBookmarkButton"].exists)
@@ -109,11 +93,18 @@ final class NewsDetailUITests: XCTestCase {
         app.launch()
         let tableView = waitForTableView()
         
+        // Iterate through each row in the table
         for cell in tableView.cells.allElementsBoundByIndex {
+            // Navigate to the DetailView
             cell.tap()
-            let scrollView = waitForScrollView()
+            
+            _ = waitForScrollView()
+            
+            // Ensure imageCredit is present
             let imageCredit = app.staticTexts["imageCreditLabel"]
             XCTAssertTrue(imageCredit.exists)
+            
+            // Pop the screen back to the ListView
             app.buttons["Top Stories"].tap()
         }
     }
@@ -125,14 +116,40 @@ final class NewsDetailUITests: XCTestCase {
         
         let expectedTags = ["News", "Opinion", "Live"]
         
+        // Iterate through each row in the table
         for cell in tableView.cells.allElementsBoundByIndex {
+            // Navigate to the DetailView
             cell.tap()
-            let scrollView = waitForScrollView()
             
+            _ = waitForScrollView()
+            
+            // Ensure tagButton is one of the members in expectedTags
             let tagButton = app.buttons["tagButton"]
             XCTAssertTrue(tagButton.exists)
             XCTAssertTrue(expectedTags.contains(tagButton.label))
+            
+            // Pop the screen back to the ListView
             app.buttons["Top Stories"].tap()
         }
+    }
+    
+    
+    // MARK: Utilities
+    
+    /// Prepare for the table in ListView
+    private func waitForTableView() -> XCUIElement {
+        let tableView = app.tables["newsListTable"]
+        let exists = NSPredicate(format: "exists == true")
+        expectation(for: exists, evaluatedWith: tableView, handler: nil)
+        waitForExpectations(timeout: 5, handler: nil)
+        XCTAssertTrue(tableView.exists)
+        return tableView
+    }
+    
+    /// Prepare for the ScrollView in DetailView
+    private func waitForScrollView() -> XCUIElement {
+        let scrollView = app.scrollViews["articleDetailScrollView"]
+        XCTAssertTrue(scrollView.waitForExistence(timeout: 5))
+        return scrollView
     }
 }
